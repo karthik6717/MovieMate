@@ -6,6 +6,7 @@ export const MovieList = ({apiPath,title}) => {
   //const [movies,setMovies] = useState([]);
   const {data: movies} = useFetch(apiPath)
   
+  //eslint-disable-next-line
   const pageTitle = useTitle(title);
 
   return (
